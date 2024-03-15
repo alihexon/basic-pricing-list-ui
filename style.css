@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
   --bg1-clr: #3b4252;
@@ -6,7 +6,6 @@
   --dbg-clr: #333945;
   --h-clr: #ffffff;
   --p-clr: #cccccc;
-  --i-clr: #00a7e1;
   --o-clr: #cccccc;
   --btn-txt-clr: #ffffff;
   --btn-clr: #00a7e1;
@@ -22,72 +21,27 @@ body {
 }
 
 .container {
-  display: flex;
-  gap: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
 }
 
 .pricing {
   background-color: var(--dbg-clr);
-  padding: 0.5rem 1rem;
+  width: 550px;
+  min-height: 550px;
+  padding: 0 25px 20px 25px;
   border-radius: 6px;
 }
 
-.pricing-title {
-  font-size: 22px;
-  font-weight: 400;
-  color: var(--h-clr);
-  margin: 0;
-}
-
-.price-con {
-  margin: 0 0 0.5rem 0;
-  color: var(--h-clr);
-}
-
-.price {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.per {
-  font-size: 14px;
-}
-
-
-
-.options {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-}
-
-.option {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.option i {
-  font-size: 24px;
-  color: var(--i-clr);
-}
-
-.option div {
-  font-size: 15px;
-  color: var(--o-clr);
-}
-
-.btn-con {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
 .start-btn {
-  background-color: var(--btn-clr);
-  color: var(--btn-txt-clr);
-  padding: 0.5rem 10rem;
-  border: none;
-  border-radius: 60rem;
+  font-size: 16px;
+  /* position: static;
+  left: 0;
+  right: 0;
+  bottom: 20px; */
 }
