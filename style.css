@@ -83,8 +83,8 @@ body {
   border-radius: 4px;
   position: absolute;
   left: 25px;
-  right: 25px;
   bottom: 20px;
+  width: 86%;
   cursor: pointer;
   user-select: none;
   transition: background-color 0.2s ease-in-out;
