@@ -112,3 +112,9 @@ body {
     row-gap: 40px;
   }
 }
+
+@media screen and (max-width: 416px) {
+  .pricing {
+    width: 90%;
+  }
+}
