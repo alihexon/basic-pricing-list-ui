@@ -18,6 +18,9 @@ body {
 
 * {
   font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -32,9 +35,9 @@ body {
 .pricing {
   background-color: var(--dbg-clr);
   width: 350px;
-  min-width: 200px;
+  min-width: 100px;
   min-height: 550px;
-  padding: 0 25px 20px 25px;
+  padding: 20px 25px 20px 25px;
   margin: 0 auto;
   position: relative;
   border-radius: 12px;
