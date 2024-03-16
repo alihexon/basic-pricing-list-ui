@@ -87,11 +87,15 @@ body {
   width: 86%;
   cursor: pointer;
   user-select: none;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, opacity 0.1s;
 }
 
 .start-btn:hover {
   background-color: var(--btn-hover-clr);
+}
+
+.start-btn:active {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1730px) {
